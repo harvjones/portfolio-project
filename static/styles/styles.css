@@ -34,21 +34,47 @@ h1{
     
 }
 
+@media screen and (max-width: 1000px)
+{
+
+span {display: none;
+    
+
+}
+
+svg {
+    width:
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
 li, a, button {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500px;
+    font-weight: 800px;
     font-size: 30px;
     color:cornsilk;
     text-decoration: none;
+    display: inline;
 
     }
 
 .about{
     background-color: ivory;
-    height:500px;
+    height:600px;
     width: 100%;
     display: flex;
     justify-content: left;
+    overflow: scroll;
     
 
 }
